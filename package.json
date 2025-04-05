@@ -30,6 +30,7 @@
     "postlight-parser": "./cli.js"
   },
   "scripts": {
+    "start": "node index.js",
     "lint": "eslint . --fix",
     "lint:ci": "remark . && eslint .",
     "lint-fix-quiet": "eslint --fix --quiet",
@@ -52,7 +53,7 @@
     "generate-parser": "node ./dist/generate-custom-parser.js"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=16"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
